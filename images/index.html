@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Expedia</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#"><img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2"></a>
+            <div id="more-travel" class="d-none d-lg-block">More Travel <span><i class="fa-solid fa-angle-down"></i></span></div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav" >
+                <a class="nav-item nav-link active" href="#"><i class='bx bx-globe'></i>English<span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="#">Support</a>
+                <a class="nav-item nav-link" href="#">Trips</a>
+                <a class="nav-item nav-link" href="#"> <i class="fa-solid fa-bell"></i></a>
+                <a class="nav-item nav-link" href="#">Sign in</a>
+              </div>
+            </div>
+          </nav>
+            <!-- <div class="col-sm-6 col-md-6 d-inline-flex p-4 ">
+                <img src="https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2">
+                
+                <div id="more-travel" class="d-none d-lg-block">More Travel <span><i class="fa-solid fa-angle-down"></i></span></div>
+            </div>  -->
+
+            
+             <!-- <div class="col-sm-6 col-md-6 d-inline-flex mx-auto align-items-end"> 
+                <ul class="navbar ">
+                    <li> <a class="nav-link d-none d-lg-block d-md-block" href="#"><i class='bx bx-globe'></i></a></li>
+                    <li class="nav-item ">
+                      <a class="nav-link d-none d-lg-block" href="#">English</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link d-none d-lg-block" href="#">Support</a>
+                    </li>
+                    <li class="nav-item ">
+                     <a class="nav-link d-none d-lg-block" href="#">Trips</a>
+                    </li>
+                    <li><a class="nav-link d-none d-lg-block d-md-block" href="#"> <i class="fa-solid fa-bell"></i></a></li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link " href="#">Sign in</a>
+                    </li>
+                </ul>   
+            </div> -->
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="border">
+            <div class="row mx-auto">
+                <div class="col-md-12 mx-auto ">
+                <ul class="nav text-center mt-10em">
+                <li class="nav-item">
+                <a class="nav-link" href="#">Stays</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Flights</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Cars</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Packages</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="#">Things to do</a>
+                </li>
+                </ul>
+                <hr>
+                </div>
+            </div>
+            
+            <div class="row mx-auto justify-content-centre">
+                <div class="col-md-12  text-center">
+                    <div class="box row d-inline-flex ">
+
+                        <div class="form-outline col-md-5 ">
+                        <input type="textarea" id="typetext" placeholder="Going to" class="form-control">
+                        </div>
+                        <div class="form-outline col-md-2">
+                        <input type="textarea" id="typetext" placeholder="Check-in" class="form-control" />
+                        </div>
+                        <div class="form-outline col-md-2">
+                        <input type="textarea" id="typetext" placeholder="Check-out" class="form-control" />
+                        </div>
+                        <div class="form-outline col-md-3">
+                        <input type="textarea" id="typetext" placeholder="Travellers" class="form-control" />
+            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="row justify-content-center">
+            <div class="col-md-2 ms-4" style="margin-left: 9em;margin-top: 1em;">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" />
+                    <label class="form-check-label" for="flexCheckAddaflight">Add a flight</label>
+                  </div>
+            </div>
+            <div class="col-md-2 ms-4" style="margin-top: 1em;">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked"/>
+                    <label class="form-check-label" for="flexCheckAddacar">Add a car</label>
+                  </div>
+        </div>    
+    </div>
+    <div class="row justify-content-center">
+        <button type="submit" class="btn btn-primary">Search</button>
+      </div>
+
+
+    <div class="container">
+        <div class="border1">
+            <div class="row">
+                <div class="bg">
+                    <h2 class="text-white" style="font-size: 2.5em;">Save instantly with<br>Expedia Rewards</h2>
+                    <p class="text-white " style="font-size:1em;">You can enjoy access to perks like Member Prices,<br>an average of 15% on thousands of hotels.<br>Terms may apply.</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container d-md-none d-sm-none d-none d-lg-flex">
+        <div class="border2">
+            <div class="row ">
+                <div class="bg2 col-lg-12 d-inline-flex">
+                    <img src="https://a.travel-assets.com/mad-service/footer/bnaBanners/BEX_ROME_iStock_72dpi.jpg" style="width:23em; height:18.375em; border-radius: 0.5em;">
+                    <div class="inside-box col-lg-8">
+                        <div class="row">
+                            <div class="col-lg-10">
+                                <h3>Go further with the Expedia app</h3>
+                                <p>Save even more - Get up to 20% on select hotels and earn double the points when you book on the app. Our app deals help you to save on trips so you can travel more and managing it all on the go.</p>
+                                <h5>Text yourself a download link for easy access</h5>
+                            </div>
+                            <div class="col-lg-2">
+                                <img src="https://a.travel-assets.com/mad-service/qr-code/footer_qr_hp/BEX-HP-TEST-27.png" style="width: 120%;height: 20vh;">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-4">
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Country Code</button>
+                                <ul class="dropdown-menu dropdown-menu-right ">
+                                    <li>India +91</li>   
+                                </ul>
+                            </div>
+                            <div class="col-lg-4">
+                                <div class="formcontr">
+                                    <input type="textarea" id="typeNumber" placeholder="Phone number" class="form-control" style="width: 15vw;">
+                                </div>
+                                
+                            </div>
+                            <div class="col-lg-4">
+                                <button type="getapp" class="btn btn-primary ">Get the app</button>
+                            </div>
+                        </div>  
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div> 
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="border3" style="background-image: url('https://a.travel-assets.com/travel-assets-manager/gmvd-1482-bookearly-emea/667x320.jpg');">
+                    <p class="plan" style="padding-top: 20em;padding-left: 1em;color: white;"><b>Plan ahead and save</b></p>
+                    <h6 class="book" style="padding-left: 1em;color: white;"><b>Book 60 days in advance for 20% off select stays.</b></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12" style="text-align: center; margin-top: 2em;">
+                <h6>Explore a world of travel with Expedia</h6>
+                <a class="link" href="#">Discover new places and experiences</a>
+            </div>
+        </div>
+    </div>
+    
+
+
+
+<!-- Footer -->
+<footer class="last-page">
+    <div class="container text-center text-md-left">
+      <div class="row">
+        <div class="col-md-12" style="margin-top: 6em;"><img src="https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg"></div>
+          <div class="col-md-3 col-sm-6 mx-auto">
+            <h5 class=" mt-3 mb-4" style="font-size: 1em;">Company</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">About us</a>
+            </li>
+            <li>
+              <a href="#!">Jobs</a>
+            </li>
+            <li>
+              <a href="#!">List your property</a>
+            </li>
+            <li>
+              <a href="#!">Partnerships</a>
+            </li>
+          </ul>
+  
+        </div>  
+        <hr class="clearfix w-100 d-md-none">
+          <div class="col-md-3 mx-auto">
+            <h5 class=" mt-3 mb-4" style="font-size: 1em;">Explore</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">India travel guide</a>
+            </li>
+            <li>
+              <a href="#!">Hotels in India</a>
+            </li>
+            <li>
+              <a href="#!">Holiday rentals in India</a>
+            </li>
+            <li>
+              <a href="#!">Holiday packages in India</a>
+            </li>
+            <li>
+                <a href="#!">Domestic flights</a>
+            </li>
+            <li>
+                <a href="#!">Car hire in India</a>
+            </li>
+            <li>
+                <a href="#!">All accomodation types</a>
+            </li>
+            <li>
+                <a href="#!">Travel blog</a>
+              </li>
+          </ul>
+  
+        </div>
+  
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+
+          <h5 class="mt-3 mb-4" style="font-size: 1em;">Policies</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Privacy Statement</a>
+            </li>
+            <li>
+              <a href="#!">Terms of use</a>
+            </li>
+            <li>
+              <a href="#!">Vrbo terms and conditions</a>
+            </li>
+          </ul>
+  
+        </div>
+        <hr class="clearfix w-100 d-md-none">
+        <div class="col-md-3 mx-auto">
+
+          <h5 class="mt-3 mb-4" style="font-size: 1em;">Help</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Support</a>
+            </li>
+            <li>
+              <a href="#!">Change or cancel your booking</a>
+            </li>
+            <li>
+              <a href="#!">Refund process and timelines</a>
+            </li>
+            <li>
+              <a href="#!">Book a flight using an airline credit</a>
+            </li>
+            <li>
+                <a href="#!">International travel documents</a>
+              </li>
+          </ul>
+  
+        </div>
+      </div>
+      <hr>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="https://images.trvl-media.com/media/content/expind/images/sg/secure.png" style="margin-top: 1em;" alt="">
+            </div>
+            <div class="footer-copyright text-center py-3" style="font-size: 0.75em; margin-left: 1em; ">© 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the Airplane Logo are trademarks or registered trademarks of Expedia, Inc.
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                
+            </div>
+        </div>
+    </div>
+    
+        
+  
+
+
+
+
+<script src="https://kit.fontawesome.com/24c494a6b6.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

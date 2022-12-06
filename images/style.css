@@ -1,0 +1,115 @@
+
+#more-travel{
+    font-size: 1.05em;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+ul.navbar{
+    text-decoration: none;
+    list-style: none;
+}
+a.nav-link{
+    color: #343b53;
+    
+}
+/* .col-mod-6{
+    margin-left: 10vw;
+} */
+
+.icons{
+    margin-left: 40rem;
+}
+.border{
+    margin-top: 2em;
+    border: 6px solid black;
+    height: 17em;
+    background-color: #ffff;
+    border-radius: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.col-mod-12{
+    align-items: center;
+}
+ul.nav{
+    justify-content: center;
+    margin-top: 2em;
+    font-size: 1em;
+}
+.box row {
+    justify-content: center;
+}
+.col-md-12{
+    align-items: center;
+}
+.col-mod-2{
+    margin: auto;
+    margin-left: 9em;
+    margin-top: 0em;
+}
+.btn{
+    margin: auto;
+    margin-top: 1em;
+    border-radius: 0.5em;
+    width: 10em;
+    height: 3em;
+}
+.col-md-12{
+    align-items: center;
+}
+
+.bg {
+    background: url("https://a.travel-assets.com/travel-assets-manager/cmct-5255/POSa-HP-Hero-D-928x398.jpg");
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 4em;
+    border-radius: 0.5em;
+}
+.text-white{
+text-shadow: 0px 1px 2px rgb(0 11 38 / 80%);
+margin-top: 2.25em;
+margin-left: 1em;
+font-weight: 700;
+}
+p.text-white{
+font-size: 1em;
+margin: 0em;
+margin-left: 2.5em;
+}
+.border2{
+margin-top: 4em;
+border: 1px solid #d7d4d2;
+opacity: 100;
+width: 70.5em;
+height: 18.375em;
+border-radius: 0.5em;    
+}
+.btn btn-default dropdown-toggle{
+    border: #1343e0;
+}
+.formcontr{
+    padding-top: 4vh;
+    padding-right: 4em;
+}
+button.btn2.btn-primary{
+    margin: auto;
+    border-radius: 0.5em;
+    width: 10em;
+    height: 3em;
+    margin-left: 16em;
+    margin-top: -5em;
+}
+.border3 {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    margin-top: 6em;
+    border-radius: 0.5em;
+}
+
+
+  
